@@ -1,0 +1,7 @@
+syntax = "proto3";
+package acme.res;
+
+message R {
+  int32 a = 1;
+  string legacy = 5;
+}

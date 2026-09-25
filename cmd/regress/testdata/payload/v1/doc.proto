@@ -1,0 +1,7 @@
+syntax = "proto3";
+package acme.doc;
+
+message Doc {
+  string title = 1;
+  int32 page_count = 2;
+}

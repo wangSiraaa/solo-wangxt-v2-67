@@ -1,0 +1,11 @@
+syntax = "proto3";
+package acme.enm;
+
+enum Status {
+  STATUS_UNSPECIFIED = 0;
+  ACTIVE = 1;
+}
+
+message Job {
+  Status status = 1;
+}

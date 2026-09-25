@@ -1,0 +1,6 @@
+syntax = "proto3";
+package foo;
+
+message Msg {
+  int32 x = 1;
+}

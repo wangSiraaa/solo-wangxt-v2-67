@@ -1,0 +1,9 @@
+syntax = "proto3";
+package acme.orders;
+
+import "common/money.proto";
+
+message Order {
+  acme.common.Money total = 1;
+  string note = 2;
+}

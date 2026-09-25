@@ -1,0 +1,7 @@
+syntax = "proto3";
+package acme.deep;
+
+message Leaf {
+  int32 count = 1;
+  string note = 2;
+}

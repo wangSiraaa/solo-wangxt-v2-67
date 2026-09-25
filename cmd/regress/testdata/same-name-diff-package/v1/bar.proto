@@ -1,0 +1,7 @@
+syntax = "proto3";
+package bar;
+
+message Msg {
+  int32 x = 1;
+  string y = 2;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+package acme.oneof;
+
+message Contact {
+  string email = 1;
+  string phone = 2;
+  int32 priority = 3;
+}
